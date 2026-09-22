@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hydratation</string>
+    <string name="daily_goal">Objectif quotidien</string>
+    <string name="goal_value">2 000 ml</string>
+    <string name="add_water_250">+250 ml</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="reset_confirmation_title">Réinitialiser le suivi ?</string>
+    <string name="reset_confirmation_message">Voulez-vous remettre votre niveau d\'hydratation à 0 ml ?</string>
+    <string name="cancel">Annuler</string>
+    <string name="confirm">Confirmer</string>
+    <string name="goal_achieved">Objectif atteint ! 🎉</string>
+    <string name="keep_it_up">Hydratez-vous régulièrement</string>
+</resources>

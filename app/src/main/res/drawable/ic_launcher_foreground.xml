@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Water drop centered within 66dp safe zone (21 to 87) -->
+    <path
+        android:pathData="M54,26 C54,26 33,52 33,67 C33,78.6 42.4,88 54,88 C65.6,88 75,78.6 75,67 C75,52 54,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="70"
+                android:endY="88"
+                android:startX="38"
+                android:startY="32"
+                android:type="linear">
+                <item android:color="#4DD0E1" android:offset="0.0" />
+                <item android:color="#00E5BF" android:offset="0.55" />
+                <item android:color="#00B4D8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle drop inner highlight -->
+    <path
+        android:fillColor="#55FFFFFF"
+        android:pathData="M43,58 C43,67 47,75 51,77 C48,74 46,67 46,60 C46,53 48,47 50,43 C45,48 43,53 43,58 Z" />
+    <!-- Secondary small sparkle / bubble -->
+    <path
+        android:fillColor="#AAFFFFFF"
+        android:pathData="M60,68 A3,3 0 1,1 60,62 A3,3 0 1,1 60,68 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Hydratation",
+  "description": "Application de suivi d'hydratation avec cercle de progression (objectif 2L), ajouts rapides et thème sombre turquoise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
